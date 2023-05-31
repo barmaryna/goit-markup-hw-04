@@ -286,6 +286,7 @@ img {
     color: var(--dark-title-color);
     font-weight: 500;
     gap: 40px;
+    position: relative;
 }
 
 .header-nav {
