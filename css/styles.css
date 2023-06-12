@@ -395,5 +395,5 @@ footer {
 }
 .social-item-link:hover,
 .social-item-link:focus {
-    background-color: var(--light-body-color);
+    background-color: var(--pressed-state-color);
 }
