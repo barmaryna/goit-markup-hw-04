@@ -406,7 +406,7 @@ footer {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    color: var(--title-color);
+    color: var(--dark-title-color);
     text-align: center;
     letter-spacing: 0.02em;
     margin-bottom: 72px;
@@ -430,17 +430,17 @@ footer {
     justify-content: center;
     width: 100%;
     height: 100%;
-    color: var(--text-color_shady);
-    border: 1px solid var(--text-color_shady);
+    color: var(--subtle-text-color);
+    border: 1px solid var(--subtle-text-color);
     border-radius: 4px;
     transition: border-color var(--transition), color var(--transition);
 }
 
 .customer-item-link:hover,
 .customer-item-link:focus {
-    border: 1px solid var(--btn-color_second);
+    border: 1px solid var(--pressed-state-color);
     border-radius: 4px;
-    color: var(--btn-color_second);
+    color: var(--pressed-state-color);
 }
 
 .customer-item-ico {
