@@ -362,7 +362,7 @@ footer {
     align-items: center;
     justify-content: center;
     height: 112px;
-    background-color: var(--bg-color_second);
+    background-color: var(--light-body-color);
     padding: 24px 100px;
     margin-bottom: 8px;
     border-radius: 4px;
