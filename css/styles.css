@@ -444,3 +444,73 @@ footer {
 }
 
 /**=============================*/
+
+/* !========== FOOTER ==========*/
+.footer {
+    background-color: var(--dark-osh-color);
+    padding: 100px 0;
+}
+
+.foot-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.foot-logo-box {
+    margin-right: 120px;
+}
+
+.logo-foot {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo-foot-color {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--light-body-color);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.foot-text {
+    width: 264px;
+    line-height: 1.5;
+    color: var(--light-body-color);
+}
+
+.foot-social-list {
+    display: flex;
+    gap: 16px;
+}
+
+.foot-social-text {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-body-color);
+    margin-bottom: 16px;
+}
+
+.foot-social-item {
+    width: 40px;
+    height: 40px;
+}
+
+.foot-social-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    transition: background-color var(--transition);
+}
+
+.foot-social-item-link:hover,
+.foot-social-item-link:focus {
+    background-color: #31d0aa;
+}
