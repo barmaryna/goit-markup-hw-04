@@ -586,3 +586,13 @@ img {
 .link:focus .pic-cover-text {
     transform: translateY(0);
 }
+
+.customers-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--title-color);
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
