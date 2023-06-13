@@ -21,6 +21,10 @@ body {
     background-color: var(--white-background-color);
 }
 
+p {
+    margin: 0;
+}
+
 ul {
     list-style: none;
     padding-left: 0;
@@ -456,7 +460,6 @@ img {
     width: 264px;
     line-height: 1.5;
     color: var(--white-background-color);
-    margin-bottom: 16px;
 }
 
 .foot-social-list {
