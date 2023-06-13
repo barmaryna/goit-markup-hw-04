@@ -337,29 +337,6 @@ img {
     gap: 40px;
 }
 /**------------------- HEADER -----------------*/
-/**------------------- FOOTER -----------------*/
-footer {
-    background-color: var(--dark-osh-color);
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.footer-text {
-    color: var(--light-body-color);
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    width: 264px;
-}
-
-.footer-span {
-    color: #f4f4fd;
-}
-
-.footer-link {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-/**------------------- FOOTER -----------------*/
 .descr-img-item {
     width: calc((100% - 48px) / 3);
 }
