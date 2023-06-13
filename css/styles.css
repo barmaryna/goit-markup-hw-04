@@ -478,7 +478,8 @@ footer {
 .foot-text {
     width: 264px;
     line-height: 1.5;
-    color: var(--light-body-color);
+    color: var(--white-background-color);
+    margin-bottom: 16px;
 }
 
 .foot-social-list {
