@@ -582,7 +582,7 @@ img {
     transform: translateY(100%);
     transition: transform var(--transition);
 }
-link:hover .pic-cover-text,
-.linkfocus .pic-cover-text {
+.link:hover .pic-cover-text,
+.link:focus .pic-cover-text {
     transform: translateY(0);
 }
