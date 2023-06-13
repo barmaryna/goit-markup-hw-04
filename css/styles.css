@@ -562,3 +562,28 @@ img {
     opacity: 0;
     pointer-events: none;
 }
+.pfo-item-pic {
+    position: relative;
+    overflow: hidden;
+}
+
+.pic-cover-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color_light);
+    padding: 40px 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--btn-color_primar);
+    transform: translateY(100%);
+    transition: transform var(--transition);
+}
+
+.pfo-item-link:hover .pic-cover-text,
+.pfo-item-link:focus .pic-cover-text {
+    transform: translateY(0);
+}
